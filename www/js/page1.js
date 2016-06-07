@@ -1,1 +1,8 @@
-requirejs(['./common','../app/messages']);
+requirejs(['../app/messages'], function(m1){
+    console.log(m1.printConsole());
+});
+
+
+
+
+
